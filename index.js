@@ -18,7 +18,7 @@ const nomeComprador = "Carlos";
 const cpfComprador = 12345678;
 const idadeComprador = 21;
 const listadeDestinos = new Array(
-  "Seul",
+  " Seul",
   " Berlim",
   " Las Vegas",
   " Roma",
@@ -26,3 +26,11 @@ const listadeDestinos = new Array(
 );
 
 console.log(`Olá Senhor ${nomeComprador}, portador do CPF ${cpfComprador}, com idade de ${idadeComprador}, confirmamos que a sua passagem para ${listadeDestinos} foi confirmada.`);
+
+console.log(listadeDestinos[0]);
+console.log("");
+
+console.log(`Olá Senhor ${nomeComprador}, adicionamos mais uma viagem a sua lista de interesses.`);
+
+listadeDestinos.push("Paris");
+console.log(listadeDestinos);
