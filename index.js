@@ -11,3 +11,18 @@ anoAtual = 2025;
 let idadeFutura = 18;
 
 console.log(`Para o ano que vem, o meu nome continuará ${nomeCompleto}, vou ter ${idadeFutura} anos de idade, planejo continuar morando em ${cidadeAtual}, e planejo também estar na faculdade de ${cursoFaculdade}.`);
+
+//Agência de Viagens
+
+const nomeComprador = "Carlos";
+const cpfComprador = 12345678;
+const idadeComprador = 21;
+const listadeDestinos = new Array(
+  "Seul",
+  " Berlim",
+  " Las Vegas",
+  " Roma",
+  " e Tokyo"
+);
+
+console.log(`Olá Senhor ${nomeComprador}, portador do CPF ${cpfComprador}, com idade de ${idadeComprador}, confirmamos que a sua passagem para ${listadeDestinos} foi confirmada.`);
